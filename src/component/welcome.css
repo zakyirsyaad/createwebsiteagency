@@ -1,0 +1,53 @@
+.welcome{
+    padding: 100px 250px;
+  }
+  .header-welcome{
+    font-size: 70px;
+    font-weight: 700;
+    color: #FDEBED;
+  }
+  .desc-welcome{
+    font-size: 30px;
+    font-weight: 700;
+    color: #FDEBED;
+  }
+
+  @media screen and (max-width: 600px) {
+    .welcome{
+      padding: 50px 20px;
+    }
+    .header-welcome{
+      font-size: 35px;
+    }
+    .desc-welcome{
+      font-size: 20px;
+      color: #AAE3E2;
+    }
+  }
+  @media screen and (min-width: 600px) and (max-width: 768px) {
+    .welcome{
+      padding: 75px 35px;
+    }
+    .header-welcome{
+      font-size: 50px;
+    }
+    .desc-welcome{
+      font-size: 25px;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    .welcome{
+      padding: 100px 150px;
+    }
+  }
+  @media screen and (min-width: 992px) and (max-width: 1200px){
+    .welcome{
+      padding: 100px 200px;
+    }
+    
+  }
+  @media screen and (min-width: 1200px){
+    .welcome{
+      padding: 100px 250px;
+    }
+  }

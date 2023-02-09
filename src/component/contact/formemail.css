@@ -1,0 +1,36 @@
+.input-form{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    outline: none;
+    color: lightslategray;
+}
+.kotak{
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid lightslategray;
+    background-color: transparent;
+    padding-bottom: 10px;
+    color: lightslategray;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+::-webkit-input-placeholder{
+    color: lightslategray;
+}
+
+.kotak:focus{
+    background-color: aliceblue;
+    padding: 10px;
+    transition: all 0.3s;
+    border-radius: 25px;
+}
+
+@media screen and (max-width: 600px){
+    .input-form{
+        width: 300px;
+    }
+}

@@ -1,0 +1,60 @@
+.container-letsgo{
+    padding: 100px 300px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-letsgo{
+    font-size: 60px;
+    font-weight: 700;
+    color: #FFCEFE;
+}
+
+@media screen and (max-width: 600px) {
+    .container-letsgo{
+        padding: 50px 20px;
+    }
+    .header-letsgo{
+        font-size: 35px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width:768px) {
+    .container-letsgo{
+        padding: 100px 30px;
+    }
+    .header-letsgo{
+        text-align: center;
+        font-size: 40px;
+    }
+}
+@media screen and (min-width: 768px) and  (max-width: 992px){
+    .container-letsgo{
+        padding: 100px 150px;
+    }
+    .header-letsgo{
+        text-align: center;
+        font-size: 40px;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    .container-letsgo{
+        padding: 100px 200px;
+    }
+    .header-letsgo{
+        text-align: center;
+    }
+}
+@media screen and (min-width: 1200px){
+    .container-letsgo{
+        padding: 100px 250px;
+    }
+}
+@media screen and (min-width: 1400px){
+    .container-letsgo{
+        padding: 100px 300px;
+    }
+}

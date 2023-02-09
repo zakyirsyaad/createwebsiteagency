@@ -1,0 +1,45 @@
+.container-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 0px;
+}
+.contain-contact{
+    padding: 100px 75px;
+    padding-bottom: 0px;
+}
+.header-contact{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: #FDEBED;
+}
+
+@media screen and (max-width: 600px){
+    .container-contact{
+        flex-direction: column;
+        padding: 25px 0px;
+    }
+    .contain-contact{
+        padding: 50px 20px;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 992px){
+    .container-contact{
+        flex-direction: column;
+        padding: 50px 0px;
+    }
+    .contain-contact{
+        padding: 50px 20px;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    .container-contact{
+        padding: 40px 0px;
+    }
+    .contain-contact{
+        padding: 75px 50px;
+        padding-bottom: 0px;
+    }
+}

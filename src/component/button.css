@@ -1,0 +1,160 @@
+.hover {
+    font-size: 18px;
+    color: #fff;
+    font-family: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+  }
+  
+  .hover:focus,
+  .hover:hover {
+    color: #AAE3E2;
+  }
+  
+  .hover:focus:after,
+  .hover:hover:after {
+    width: 100%;
+    left: 0%;
+  }
+  
+  .hover:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #AAE3E2;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+  }
+  .btn{
+    padding: 10px 25px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid #AAE3E2;
+    color: #AAE3E2;
+    font-weight: 600;
+    font-size: 17px;
+  }
+  .btn a {
+    text-decoration: none;
+    color: #AAE3E2;
+  }
+  .btn:hover{
+    background-color: #AAE3E2;
+    transition: all 0.5s;
+    color: #fff;
+  }
+  /* bt */
+  .btn-reading{
+    padding: 10px 25px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid #AAE3E2;
+    color: #AAE3E2;
+    font-weight: 600;
+    font-size: 17px;
+  }
+
+  .btn-reading:hover{
+    background-color: #AAE3E2;
+    transition: all 0.5s;
+    color: #fff;
+    cursor: pointer;
+  }
+  /* btn faq */
+  .btn-faq {
+    color: #fff;
+    font-weight: 550;
+    font-size: 17px;
+    background-color: #AAE3E2;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    box-shadow: 0px 6px 0px #fff;
+    transition: all .1s;
+    margin: 25px 0px;
+   }
+   
+   .btn-faq:active {
+    box-shadow: 0px 2px 0px #AAE3E2;
+    position: relative;
+    top: 2px;
+   }
+   /* btn letsgo */
+   .btn-letsgo{
+    padding: 10px 25px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid #FFCEFE;
+    color: #fff;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 25px;
+  }
+
+  .btn-letsgo:hover{
+    background-color: #FFCEFE;
+    transition: all 0.5s;
+    color: #fff;
+    cursor: pointer;
+  }
+  /* btn loading */
+  .btn-loading{
+    padding: 20px 50px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid #FFCEFE;
+    color: #fff;
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 100px;
+  }
+
+  .btn-loading:hover{
+    background-color: #FFCEFE;
+    transition: all 0.5s;
+    color: #fff;
+    cursor: pointer;
+  }
+  @media screen and (max-width: 600px){
+    .btn-loading{
+      font-size: 20px;
+      padding: 15px 25px;
+    }
+  }
+  @media screen and (min-width: 600px) and (max-width: 992px){
+    .btn-loading{
+      font-size: 15px;
+      padding: 15px 50px;
+    }
+  }
+  /* btn submit */
+  .btn-submit{
+    padding: 10px 25px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 3px solid lightslategrey;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+
+  .btn-submit:hover{
+    background-color: #FFCEFE;
+    transition: all 0.5s;
+    color: lightslategray;
+    cursor: pointer;
+  }

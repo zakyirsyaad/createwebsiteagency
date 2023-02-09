@@ -1,0 +1,67 @@
+.container-introduction{
+    padding: 100px 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-introduction{
+    font-size: 50px;
+    font-weight: 800;
+    color: #FDEBED;
+}
+.reviews{
+    font-size: 20px;
+    color: #FDEBED;
+    margin-bottom: 50px;
+}
+.fa-star{
+    color: #AAE3E2;
+}
+
+@media screen and (max-width: 600px) {
+    .container-introduction{
+        padding: 50px 20px;
+    }
+    .header-introduction{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .container-introduction{
+        padding: 100px 30px;
+    }
+    .header-introduction{
+        font-size: 40px;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 768px) and  (max-width: 992px) {
+    .container-introduction{
+        padding: 100px 150px;
+    }
+    .header-introduction{
+        text-align: center;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    .container-introduction{
+        padding: 100px 200px;
+    }
+    .header-introduction{
+        text-align: center;
+    }
+}
+@media screen and (min-width: 1200px){
+    .container-introduction{
+        padding: 100px 250px;
+    }
+    .header-introduction{
+        text-align: center;
+    }
+}
+@media screen and (min-width: 1400px){
+    .container-introduction{
+        padding: 100px 300px;
+    }
+}

@@ -1,0 +1,34 @@
+.header-not{
+    text-align: center;
+    padding: 100px 200px;
+    padding-bottom: 20px;
+}
+.number-not{
+    font-size: 100px;
+    font-weight: 700;
+    color: #FDEBED;
+}
+.desc-not{
+    font-size: 30px;
+    font-weight: 600;
+    color: #FDEBED;
+}
+
+@media screen and (max-width: 600px){
+    .header-not{
+        padding: 100px 20px;
+        padding-bottom: 20px;
+    }
+    .number-not{
+        font-size: 70px;
+    }
+    .desc-not{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 992px){
+    .header-not{
+        padding: 100px 100px;
+        padding-bottom: 20px;
+    }
+}
